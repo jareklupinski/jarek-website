@@ -3989,6 +3989,7 @@ a.bg-video-button-muted {
     position: relative;
     padding-left: 44px;
     color: #444;
+    height: 88px;
 }
 
 .contact-item a {
