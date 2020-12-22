@@ -3997,11 +3997,6 @@ a.bg-video-button-muted {
     text-decoration: none;
 }
 
-.contact-item a:hover {
-    color: rgb(107, 107, 107);
-    text-decoration: none;
-}
-
 .ci-icon {
     width: 48px;
     height: 48px;
@@ -4037,6 +4032,16 @@ a.bg-video-button-muted {
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+}
+
+.ci-icon :hover {
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
 }
 
 .ci-icon i, .ci-icon span {
