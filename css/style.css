@@ -1335,12 +1335,12 @@ a.bg-video-button-muted {
     display: inline-block;
     position: relative;
     padding: 15px 24px;
-    background: rgba(0, 0, 0, .75);
+    background: rgba(15, 15, 15, .25);
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: rgba(255, 255, 255, .85);
+    color: rgba(255, 255, 255, .75);
 }
 
 .hs-line-10>span {
