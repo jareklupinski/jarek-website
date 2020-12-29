@@ -9,7 +9,7 @@ Primary use:    MultiPurpose Template
 -------------------------------------------------------------------*/
 
 @import "font-awesome.min.css";
-@import "et-line.css";
+@import "et-line.min.css";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400,700);
 /*------------------------------------------------------------------
@@ -6897,6 +6897,14 @@ section:hover .single-carousel .owl-next, section:hover .small-item-carousel .ow
         font-size: 13px;
     }
 
+    .nav-logo-wrap {
+        display:inline-block;
+        float:none;
+    }
+
+    .main-nav {
+        text-align: center;
+    }
 }
   
 @media only screen and (max-width: 992px) {
