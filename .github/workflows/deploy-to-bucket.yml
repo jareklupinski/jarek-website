@@ -30,4 +30,4 @@ jobs:
           rm -rf www/.git
           rm -rf www/.github
           rm www/README.md
-          gsutil -m cp -r -z css,js www gs://jarek.lupin.ski
+          gsutil -m cp -r -z css,js www/ gs://jarek.lupin.ski/
