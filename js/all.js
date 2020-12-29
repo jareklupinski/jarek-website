@@ -48,6 +48,7 @@
         init_map();
         init_wow();
         init_masonry();
+        document.documentElement.setAttribute('lang', 'en');
     });
     
     $(window).resize(function(){
