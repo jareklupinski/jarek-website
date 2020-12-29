@@ -30,5 +30,4 @@ jobs:
           rm -rf www/.git
           rm -rf www/.github
           rm www/README.md
-          gsutil -m rsync -r -x '^.git/*|^.github/*|README.md' www gs://jarek.lupin.ski
           gsutil -m cp -r -z css,js www gs://jarek.lupin.ski
